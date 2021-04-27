@@ -1,0 +1,93 @@
+<html>
+<head>
+	<title>sign up page</title>
+	<link href="style.css" rel="stylesheet">
+	<link rel="stylesheet"
+	href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-6">
+				<img src="https://miro.medium.com/max/964/1*us_HYECtH3EpFw1hALyYRg.gif" alt="profile"width="410"height="700"class="phone">
+			</div>
+		<div class="col-sm-6">
+	<div class="right-column text-center">
+		<img src="https://1000logos.net/wp-content/uploads/2017/02/ig-logo.png"alt="insta"width="250" height="110" class="instagram-logo">
+
+
+		<p class="info"> sign up to see photo and 
+		video form your friends.</p>
+		
+		<button type="submit" class="btn btn-primary btn-block">  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyhXbhGRa2iB0oQTd77J3kQ354Kx_amZ4SKA&usqp=CAU"width="36"height="20">
+		 Log in with facebook </button>
+		 <p class="or">OR</p>
+		<form>
+			<div class="form-group">
+			<input type="text" class="form-control"
+			placeholder="mobile number or E-mail">
+			</div>	
+            <div class="form-group">
+			<input type="text" class="form-control"
+			placeholder="Full name">
+			</div>	
+            <div class="form-group">
+			<input type="text" class="form-control"
+			placeholder="User name">
+			</div>	
+             <div class="form-group">
+			<input type="password" class="form-control"
+			placeholder="password">
+			</div>
+			<button type="submit" class="btn btn- primary btn-block">Sign up </button>
+
+			</form>
+			<p class="terms"> By signing up, you agree to our <b> Terms, Data policy </b> and <b> Cookies policy </b>.</p>	</div>
+<div class="right-column-login text-center">
+	<p>Have an account?<a href="#"> Login</a></p>
+<div class="Get-the-app">
+	<span> get the app.</span>
+	<div class="badges">
+		<img src="https://static.wixstatic.com/media/f1186a_caa088ae53c6409ea885030a68578907~mv2.png/v1/fit/w_800%2Ch_300%2Cal_c/file.png" alt="google"width="250"height="130">
+	</div>
+</div></div>
+</div>
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script></body>
+</html>

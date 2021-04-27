@@ -1,0 +1,134 @@
+*{
+	margin:0;
+	padding:0;
+box-sizing: border-box;
+
+}
+.phone
+{
+	padding-bottom:100px ;
+	height: 650px;
+	float:right;
+	margin: 10px;
+	padding-right: 15px;
+	padding-left: 15px;
+	
+}
+body
+{ background-color: #fafafa! important;
+ }
+ .container
+ {
+ 	margin-top: 20px
+ }
+ .right-column
+ {
+ 	background: #fff;
+ 	border: 1px solid #e6e6e6;
+ 	width: 350px;
+ 	margin: 10px;
+ 	padding: 40px;
+ }
+ .instagram-logo
+ { margin: 15px auto;
+ }.info{
+ 	font-weight: 600px;
+ 	line-height: 20px;
+ 	font-size:17px;
+ 	colour:#999;
+ }
+ button img{
+ 	height: 18px ! important;
+ 	padding: 0 8px 2px;
+
+ }
+ .r{
+ 	font-size: 13px ! important;
+ 	color: #999;
+ 	font-weight: 600px
+ }
+ .or::before
+ {
+ 	content:'';
+ 	background: #efefef;
+ 	display:block;
+ 	height: 2px;
+ 	width: 110px;
+ 	position: relative;
+ 	top: 11px;
+ }
+  .or::after
+ {
+ 	content:'';
+ 	background: #efefef;
+ 	display:block;
+ 	height: 2px;
+ 	width: 110px;
+ 	position: relative;
+ 	bottom: 10px;
+ 	left: 160px;
+ }
+ .form-group
+ {
+ 	margin-bottom: 6px! important;
+ }
+ .form-control
+ {
+ 	background: #fafafa! important;
+ 	border: 1px solid #efefef!important;
+ 	font-size: 12px!important;
+
+ }
+ ::placeholder
+ {
+ 	color: #999!important;
+ }
+ .btn{
+ 	margin: 12px auto;
+ 	padding: 2px! important;
+ 	font-weight: 600!important;
+ }
+ .btn-primary
+ {
+ 	background-color: #3897f0! important;
+ 	border: 1px solid #3897f0! important;
+ }
+ .terms{
+ 	line-height: 18px;
+ 	font-size: 14px;
+ 	color: #999;
+ 	margin: 5px 20px;
+ }
+ .right-column-login 
+ {
+ 	background: #fff;
+ 	border: 1px solid #e6e6e6;
+ 	width: 350px;
+ 	margin: 10px;
+ 	padding: 20px;
+ }
+ .right-column-login a:hover{
+ 	text-decoration: none;
+ }
+ .Get-the-app{
+ 	font-size: 1.4px;
+ 	text-align: center;
+ }
+ .Get-the-app span{
+ 	display: block;
+ 	margin: 2px 0;
+ 	color: #262626;
+
+ }
+ .badge img{
+ 	width: 100%;
+ 	display: flex;
+ 	justify-content: center;
+ }
+ .badge img{
+ 	max-width: 14px;
+ 	cursor: pointer;
+ }
+ .badge img{
+ 	margin-right: 1px;
+ }
