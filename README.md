@@ -1,3 +1,3 @@
 
-Thanks to @priple.com and guys this is the sign in page of instagram(front-end design)
+Thanks to @priple.com and guys this is the Sign In Page of Instagram(front-end design)
 
